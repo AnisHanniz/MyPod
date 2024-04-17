@@ -1,0 +1,48 @@
+Guide d’installation du projet Flutter sous Linux
+
+Téléchargement de Flutter
+
+- Ouvrez un terminal sur votre système Linux.
+- Téléchargez l'archive Flutter depuis le site officiel en utilisant la commande `curl` :
+
+curl -O https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.5.3-stable.tar.xz
+
+
+- Extrayez l'archive Flutter dans un répertoire de votre choix :
+
+tar xf flutter_linux_2.5.3-stable.tar.xz
+
+
+- Ajoutez le chemin du répertoire `flutter/bin` à votre variable d'environnement `PATH` en éditant votre fichier `.bashrc` ou `.zshrc` :
+
+export PATH="$PATH:`pwd`/flutter/bin"
+
+- Rechargez votre terminal ou exécutez la commande suivante pour appliquer les modifications :
+
+source ~/.bashrc
+
+Configuration de Flutter
+
+- Vérifiez l'installation de Flutter en exécutant la commande suivante :
+
+flutter doctor
+
+- Suivez les instructions pour installer les dépendances manquantes telles que les outils de développement Android Studio, les packages nécessaires pour Android et/ou iOS, etc.
+
+Récupération du projet Flutter existant
+
+- Ouvrez un terminal.
+- Accédez au répertoire de votre projet Flutter existant en utilisant la commande `cd`. Par exemple :
+
+cd /home/nad/Desktop/VMSHARE/Projets/mypod/depot
+
+Installation des dépendances du projet
+
+- Exécutez la commande `flutter pub get` pour installer toutes les dépendances déclarées dans le fichier `pubspec.yaml`.
+
+flutter pub get
+
+Développement et test
+
+Utilisez `flutter run` pour tester votre application sur un émulateur ou un appareil Android.
+

@@ -1,0 +1,10 @@
+Guide de déploiment
+
+Il vous faudra deux appareils androids, un pour MyPod et un autre pour simuler la pompe (podapp)
+
+Transférez les fichiers APK sur un appareil Android pour les tester :
+
+- Connectez votre appareil Android à votre ordinateur via USB.
+- Transférez les fichiers APK vers votre appareil Android.
+- Sur votre appareil Android, ouvrez les fichiers APK pour l'installer et suivez
+les instructions à l'écran.
