@@ -1,7 +1,7 @@
 Conçue pour aider à suivre ses données et à prendre des décisions éclairées concernant votre traitement du diabète, MyPod est un projet qui permet d'utiliser les pompes à insuline Omnipod Dash directement depuis votre téléphone personnel. 
 
 
-![Diagramme du projet](/home/nad/Desktop/VMSHARE/Projets/mypod/AGDM_mobile/diagramme.png)
+![Diagramme du projet](diagramme_projet.pdf)
 
 
 
